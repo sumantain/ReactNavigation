@@ -10,18 +10,7 @@ export default class AddFriend extends React.Component {
         return (
             <View style={styles.container}>
                 <Text>Add friends here!</Text>
-                {/*{*/}
-                    {/*this.props.screenProps.possibleFriends.map((friend, index) => (*/}
-                            {/*<Button*/}
-                                {/*key={ friend }*/}
-                                {/*title={ `Add ${ friend }` }*/}
-                                {/*onPress={() =>*/}
-                                    {/*this.props.screenProps.addFriend(index)*/}
-                                {/*}*/}
-                            {/*/>*/}
-                        {/*)*/}
-                    {/*)*/}
-                {/*}*/}
+
                 <TextInput
                     style={{height: 40}}
                     placeholder="Type here to translate!"
