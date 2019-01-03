@@ -22,6 +22,7 @@ export default class AddFriend extends React.Component {
                     onPress={() =>
                         this.addFriends()
 
+
                     }
                 />
             </View>
